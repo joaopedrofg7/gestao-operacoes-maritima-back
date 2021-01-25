@@ -1,7 +1,4 @@
 const express = require('express');
-//Colocar em comentário para utilizar em localhost
-const secure = require('ssl-express-www');
-app.use(secure);
 //const indexRouter = require('./routes/index');
 //const usersRouter = require('./routes/users');
 
