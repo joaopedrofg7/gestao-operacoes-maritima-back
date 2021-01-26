@@ -171,10 +171,7 @@ function userRecoverPassword(req, res) {
                         auth: {
                             user: 'pmar.pw.2021@gmail.com',
                             pass: "Pmarpw2021"
-                        },
-                        tls: {
-                            rejectUnauthorized: false
-                        }
+                        },                      
                     }));
                     transporter.verify(function (error, success) {
                         if (error) {
